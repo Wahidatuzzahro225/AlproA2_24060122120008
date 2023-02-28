@@ -7,7 +7,7 @@ Tanggal       : 27 Februari 2023
 */
 
 #include <stdio.h>
-int  GayaSentr(void)
+int  main(void)
 {
     /*Kamus Lokal*/
     float m,v,r,F;
