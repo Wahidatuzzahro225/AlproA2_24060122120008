@@ -7,7 +7,7 @@ Tanggal       : 27 Februari 2023
 */
 
 #include <stdio.h>
-int  JarakPBola(void)
+int  main(void)
 {
     /*Kamus Lokal*/
     float y, v0, t;
