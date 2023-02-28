@@ -7,7 +7,7 @@ Tanggal       : 27 Februari 2023
 */
 
 #include <stdio.h>
-int  LuasKellLayang(void)
+int  main(void)
 {
     /*Kamus Lokal*/
     float s1,s2,d1,d2, Luas, Kell;
