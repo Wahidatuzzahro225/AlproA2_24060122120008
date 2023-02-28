@@ -1,5 +1,5 @@
 /*
-Nama Program  : jarakGLBB
+Nama Program  : volBolaKerct.c
 Deskripsi     : program ini menghitung dan menampilkan Volume Bola (Vb) dan Volume Kerucut (Vk) di layar
 Nama Pembuat  : Wahidatuzzahro Febria Fithrurrahmah
 NIM           : 24060122120008
@@ -7,7 +7,7 @@ Tanggal       : 27 Februari 2023
 */
 
 #include <stdio.h>
-int  VolBolaKerct(void)
+int  main(void)
 {
     /*Kamus Lokal*/
     float r,Vb,Vk;
