@@ -23,17 +23,17 @@ int main(void){
     printf("Masukkan sisi 3 ");
     scanf("%d", &c);
 
-    if (a+b>c || b+c>a || c+a>b)
+    if ((a+b>=c || b+c>=a || c+a>=b) && (a>0 && b>0 && c>0)){
         if (a==b && a!=c || b==c && a!=b || a==c && b!= c){
             printf("Segitiga sama kaki");
         }
         else if (a==b && b==c && a==c){
             printf("Segitiga sama sisi");
         }
-        else if (a != b != c){
+        else{
             printf("Segitiga Sembarang");
         }
-
+    }
     else {
         printf("Terdapat nilai yang bukan segitiga");
     }
