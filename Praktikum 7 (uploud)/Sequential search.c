@@ -9,7 +9,7 @@ Tanggal       : 15 Mei 2023
 #include <stdio.h>
 #include <stdlib.h>
 
-int m(void)
+int main(void)
 {
     //kamus lokal
     int *tabel;
